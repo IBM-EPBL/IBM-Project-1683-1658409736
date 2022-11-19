@@ -3,7 +3,6 @@
     background-color: #f2f2f2;
     padding: 20px;
 }
-
 input[type=text],
 select,
 textarea {
@@ -17,7 +16,7 @@ textarea {
     resize: vertical;
 }
 
-.button {
+.buttonss{
     background-color: #F44336;
     color: white;
     padding: 12px 20px;
@@ -26,6 +25,6 @@ textarea {
     cursor: pointer;
 }
 
-h1 {
+.head{
     align-self: center;
 }

@@ -16,8 +16,8 @@ function Contact() {
   }
 
   return (
-    <div>
-      <h1>Contact Us</h1>
+    <div className='card'>
+      <h1 className='head'>Contact Us</h1>
       <div className='contact'>
         <div className='form'>
         <form>  
@@ -30,7 +30,7 @@ function Contact() {
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." required ></textarea>
 
-          <button onClick={submitHandler} className='button' value="Submit">Send Message</button>
+          <button className='buttonss' onClick={submitHandler}  value="Submit">Send Message</button>
           </form>
         </div>
       </div>

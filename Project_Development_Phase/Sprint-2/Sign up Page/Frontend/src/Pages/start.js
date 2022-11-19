@@ -20,10 +20,10 @@ The goal of sales analytics is always to simplify the information available to y
     <p style={{color:"blue",fontSize:"17px",opacity:"0.9"}} class="card-text">Sales analytics is your sales team’s hidden superpower. It can enable your agents to spot key trends, dive deep, predict outcomes, and increase productivity. Accurate analysis also gives your team the ability to tailor their efforts and prioritize high-value prospects. Plus, it may even help spotlight new opportunities for your business to pursue.
 
 Sales analytics allows you to better gauge team performance and uncover areas for improvement, too. Understanding those strengths and weaknesses leads to better training, more attainable goals, and a cohesive team.</p>
-  <button style={{backgroundColor:"green",padding:"5px",color:"white",border:"1px solid green",fontSize:"20px"}}>Analyse Data</button>
+  <button type='button' className='btn btn-dark shadow-lg p-2'>Analyse Data</button>
   <br/>
   <br/>
-  <button style={{backgroundColor:"blue",padding:"5px",color:"white",border:"1px solid green",fontSize:"20px"}}>Generate Report</button>
+  <button type='button' className='btn btn-primary shadow-lg p-2'>Generate Report</button>
 
   </div>
 </div>

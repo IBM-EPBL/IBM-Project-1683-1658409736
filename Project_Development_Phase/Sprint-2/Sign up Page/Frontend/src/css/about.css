@@ -21,15 +21,16 @@
     align-self: center;
 }
 
-h1 {
+.h11{
     padding-top: 2%;
     padding-left: 2%;
     text-transform: uppercase;
 }
 
-p {
+.para{
     padding-top: 2%;
     padding-left: 2%;
+    color: white;
     /* text-decoration: solid; */
     font-size: 15px;
 }

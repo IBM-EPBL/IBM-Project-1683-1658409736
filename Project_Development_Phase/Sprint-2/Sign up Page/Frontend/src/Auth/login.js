@@ -36,7 +36,7 @@ function Login(props) {
       }
 
   return (
-    <MDBContainer fluid className="p-3 my-5 h-custom">
+    <MDBContainer fluid className="p-3 my-2 h-custom">
 
       <MDBRow>
 
