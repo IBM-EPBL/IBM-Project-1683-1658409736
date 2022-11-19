@@ -1,0 +1,39 @@
+.about {
+    padding: 2%;
+}
+
+.row {
+    display: flex;
+    padding: 5%;
+}
+
+.left {
+    height: 400px;
+    width: 50%;
+    background: #F44336;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.right {
+    width: 50%;
+    border-radius: 20px;
+    align-self: center;
+}
+
+h1 {
+    padding-top: 2%;
+    padding-left: 2%;
+    text-transform: uppercase;
+}
+
+p {
+    padding-top: 2%;
+    padding-left: 2%;
+    /* text-decoration: solid; */
+    font-size: 15px;
+}
+
+.list {
+    padding: 2%;
+}
