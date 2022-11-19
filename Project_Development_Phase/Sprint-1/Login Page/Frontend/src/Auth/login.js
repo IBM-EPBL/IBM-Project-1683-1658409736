@@ -3,7 +3,7 @@ import './login.css'
 import {Link} from 'react-router-dom'
 import {MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 
-function Login() {
+function Login(props) {
 
   const LoggingIn=()=>{
         var email=document.getElementById('email').value;
@@ -26,6 +26,7 @@ function Login() {
           if(result.success)
           {
             alert(result.success)
+            props.nav('/home')
           }
           else
           {
@@ -40,7 +41,7 @@ function Login() {
       <MDBRow>
 
         <MDBCol col='10' md='6'>
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" className="img-fluid" alt="Sample image" />
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" className="img-fluid" alt="Sample" />
         </MDBCol>
 
         <MDBCol col='4' md='6'>
