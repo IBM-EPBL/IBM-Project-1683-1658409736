@@ -9,6 +9,7 @@ import Report from './Pages/Report';
 import Dashboard from './Pages/Dashboard';
 import Story from './Pages/Story';
 import Contact from './Pages/Contact';
+import Start from './Pages/start';
 //import Register from './Auth/register';
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <Route path='/report' element={<Report/>} /> 
       <Route path='/dash' element={<Dashboard/>} /> 
       <Route path='/story' element={<Story/>} /> 
-      <Route path='/contact' element={<Contact/>} /> 
+      <Route path='/contact' element={<Contact/>} />
+      <Route path='/start' element={<Start/>} /> 
     </Routes>
   );
 }

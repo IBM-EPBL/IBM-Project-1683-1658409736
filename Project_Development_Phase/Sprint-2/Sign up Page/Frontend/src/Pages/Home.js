@@ -16,7 +16,7 @@ function Home() {
   <div class="w3-container w3-red w3-center" style={{padding:"128px 16px"}}>
   <h1 class="w3-margin w3-jumbo">Global Sales Data Analytics</h1>
   <p class="w3-xlarge w3-white">Find out Best Solutions for more Productivity</p>
-  <button style={{fontWeight:"bold"}} class="w3-button w3-green w3-padding-large w3-large w3-margin-top w3-hover-white">Get Started</button>
+  <Link to={'/start'}><button style={{fontWeight:"bold"}} class="w3-button w3-green w3-padding-large w3-large w3-margin-top w3-hover-white">Get Started</button></Link>
   <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>&nbsp;&nbsp;
