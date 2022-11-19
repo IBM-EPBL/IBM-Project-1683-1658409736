@@ -4,6 +4,7 @@ import './../css/about.css'
 function About() {
   return (
     <div className='about'>
+      <h1>ABOUT US</h1>
       <div className='firstrow row'>
         <div className='left'>
           <h1>GLOBAL SALES DATA ANALYTICS</h1>
